@@ -24,14 +24,14 @@ if (!is_null($events['events'])) {
 			else if($text == 'cpu'){
 				// Build message to reply back
 				$messages = [
-					'type' => 'cpu',
+					'type' => 'text',
 					'text' => 'หน่วยประมวลผลกลาง ทำหน้าที่'
 				];
 			}
 			else if($text == 'jule'){
 				// Build message to reply back
 				$messages = [
-					'type' => 'jule',
+					'type' => 'text',
 					'text' => 'คนสวย'
 				];
 			}
