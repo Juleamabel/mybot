@@ -24,7 +24,7 @@ if (!is_null($events['events'])) {
 			else if($text == 'cpu'){
 				// Build message to reply back
 				$messages = [
-					'type' => 'text',
+					'type' => 'cpu',
 					'text' => 'หน่วยประมวลผลกลาง ทำหน้าที่'
 				];
 			}
