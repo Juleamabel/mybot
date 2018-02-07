@@ -35,6 +35,13 @@ if (!is_null($events['events'])) {
 					'text' => 'คนสวย'
 				];
 			}
+			else if($text == 'Alice'){
+				// Build message to reply back
+				$messages = [
+					'type' => 'text',
+					'text' => 'คนไม่หล่อ'
+				];
+			}
 		
 			// Make a POST Request to Messaging API to reply to sender
 			$url = 'https://api.line.me/v2/bot/message/reply';
