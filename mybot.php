@@ -42,7 +42,7 @@ if (!is_null($events['events'])) {
 					'text' => 'คนไม่หล่อ'
 				];
 			}
-			else if($text == 'ไอซ์'){
+			else if($text == 'ice'){
 				// Build message to reply back
 				$messages = [
 					'type' => 'text',
